@@ -1,0 +1,15 @@
+train: C:/Users/Ramesh/OneDrive/Desktop/Trash detection/dataset/yolofol/train/images
+val: C:/Users/Ramesh/OneDrive/Desktop/Trash detection/dataset/yolofol/valid/images
+test: C:/Users/Ramesh/OneDrive/Desktop/Trash detection/dataset/yolofol/test/images
+
+nc: 6
+names: ['Trash', 'cardboard', 'glass', 'metal', 'paper', 'plastic']
+
+
+roboflow:
+  workspace: yolov8-trash-detection
+  project: yolo-v8-trash-detection-ee4016
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolov8-trash-detection/yolo-v8-trash-detection-ee4016/dataset/3
+
